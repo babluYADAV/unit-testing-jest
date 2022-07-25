@@ -1,0 +1,38 @@
+// import { render, screen, logRoles } from "@testing-library/react";
+// import App from "./App";
+
+// // test("renders learn react link", () => {
+// //   render(<App />);
+// //   const text = screen.queryByTestId("text").innerHTML;
+// //   expect(text).toBe(
+// //     "React unit testing with jest and react-testing-library! 😘💕😂"
+// //   );
+// // });
+
+// test("test 1", () => {
+//   render(<App />);
+//   logRoles(screen.getByTestId("myrootdiv"));
+//   const buttonElem = screen.getByRole("button", {
+//     name: "test button",
+//     exact: false,
+//   });
+//   expect(buttonElem).toBeInTheDocument();
+// });
+
+// import "./App.css";
+
+// function App() {
+//   return (
+//     <div className="App" data-testid="myrootdiv">
+//       <h1>Testing basics</h1>
+//       <input type="text" placeholder="type name here" />
+//       <button>test button</button>
+//       <ul>
+//         <li>item one </li>
+//         <li>item two </li>
+//       </ul>
+//     </div>
+//   );
+// }
+
+// export default App;
