@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App test snapshot 1`] = `
+<div
+  className="App"
+  data-testid="myrootdiv"
+>
+  <div>
+    <h2>
+      comment form
+    </h2>
+    <input
+      onChange={[Function]}
+      placeholder="write your comment here"
+      type="text"
+      value=""
+    />
+    <input
+      defaultChecked={false}
+      id="checkbox"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <label
+      htmlFor="checkbox"
+    >
+      i agree to terms and conditions
+    </label>
+    <button
+      disabled={true}
+      onClick={[Function]}
+    >
+      Comment
+    </button>
+  </div>
+  <div>
+    <ul>
+      <li>
+        comment one
+      </li>
+      <li>
+        comment two
+      </li>
+    </ul>
+  </div>
+  <ul />
+</div>
+`;

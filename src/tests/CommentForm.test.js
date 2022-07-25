@@ -1,7 +1,12 @@
 import { render, screen, fireEvent } from "@testing-library/react";
+import renderer from "react-test-renderer";
 import CommentForm from "../Components/CommentForm";
 
 describe("Commentform test", () => {
+  test("snapshot ", () => {
+    const tree = renderer.create(<CommentForm />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
   test("initail Conditions", () => {
     render(<CommentForm />);
 

@@ -1,7 +1,7 @@
 import React from "react";
 
 const CommentList = ({ allCommnents }) => {
-  if (allCommnents.length == 0) {
+  if (allCommnents.length === 0) {
     return <h2>No commnets available</h2>;
   }
   return (

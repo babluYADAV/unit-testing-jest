@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comment list test snapshot with items 1`] = `
+<div>
+  <ul>
+    <li>
+      comment 1
+    </li>
+    <li>
+      comment 2
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Comment list test snapshot with no items 1`] = `
+<h2>
+  No commnets available
+</h2>
+`;

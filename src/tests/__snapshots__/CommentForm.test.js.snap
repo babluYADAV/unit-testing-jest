@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Commentform test snapshot  1`] = `
+<div>
+  <h2>
+    comment form
+  </h2>
+  <input
+    onChange={[Function]}
+    placeholder="write your comment here"
+    type="text"
+    value=""
+  />
+  <input
+    defaultChecked={false}
+    id="checkbox"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <label
+    htmlFor="checkbox"
+  >
+    i agree to terms and conditions
+  </label>
+  <button
+    disabled={true}
+    onClick={[Function]}
+  >
+    Comment
+  </button>
+</div>
+`;

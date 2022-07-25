@@ -1,6 +1,7 @@
 import "./App.css";
 import CommentForm from "./Components/CommentForm";
 import CommentList from "./Components/CommentList";
+import Joke from "./Components/Joke";
 
 function App() {
   const comment = [
@@ -11,6 +12,7 @@ function App() {
     <div className="App" data-testid="myrootdiv">
       <CommentForm />
       <CommentList allCommnents={comment} />
+      <Joke />
     </div>
   );
 }
